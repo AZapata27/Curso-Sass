@@ -1,0 +1,13 @@
+{
+  "name": "sass_course",
+  "version": "0.0.1",
+  "description": "curso de sass",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sas --watch ./utils/scss/styles.scss ./utils/css/styles.css"
+  },
+  "author": "andres zapata",
+  "license": "ISC"
+}
