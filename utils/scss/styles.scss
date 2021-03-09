@@ -1,0 +1,14 @@
+$primary: #df8613;
+$secondary: green;
+$font-size: 1rem;
+$brand: "AZ_dev";
+
+.#{$brand}-title-primary {
+  font-size: $font-size;
+  color: $primary;
+}
+
+#{$brand}-title-secondary {
+  font-size: $font-size;
+  color: $secondary;
+}
