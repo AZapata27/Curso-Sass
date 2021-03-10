@@ -3,27 +3,7 @@
 
 
 @import "button";
-
-// VARIABLES SASS
-
-
-
-// FUNCIONES SASS
-
-@function size($value){
-
-  @return $value * $unit;
-}
-
-
-//MIXINS
-
-@mixin reset-pm{
-
-  margin: 0;
-  padding: 0;
-
-}
+@import "utils";
 
 
 
@@ -125,66 +105,3 @@ header{
 
 }
 
-
-.row{
-
-  display: flex;
-  align-items: center;
-
-  .col{
-    width: 50%;
-
-  }
-
-  .col-30{
-    width: 30%;
-
-  }
-
-
-  .col-70{
-    width: 70%;
-
-
-  }
-
-}
-
-.m-auto{
-
-  margin: 0 auto;
-}
-
-@for $i from 1 to $limit{
-
-  .m-#{$i}{
-    margin: $i * $unit;
-  }
-
-
-}
-
-@for $i from 1 to $limit {  
-
-  .p-#{$i}{
-
-    padding: $i * $unit;
-  }
-}
-
-@for $i from 1 to $limit {
-
-  .py-#{$i}{
-
-    padding: $i * $unit 0;
-  }
-}
-
-
-@for $i from 1 to 4 {
-
-  .w-#{$i}{
-
-    width: $i * 25%;
-  }
-}

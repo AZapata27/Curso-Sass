@@ -1,6 +1,9 @@
 
 @import 'config';
 
+
+// maquetacion principal de botones
+
 @mixin btn($background-color,$color,$bold){
     background-color: $background-color;
     color: $color;
