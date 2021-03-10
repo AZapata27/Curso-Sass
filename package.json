@@ -6,7 +6,7 @@
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "sass": "sass --watch ./src/main.scss ./public/styles.css"
+    "sass": "sass --watch ./src/main.scss ./public/css/styles.css"
   },
   "author": "andres zapata",
   "license": "ISC"

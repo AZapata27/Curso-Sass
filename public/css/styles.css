@@ -1,11 +1,62 @@
-.AZ_dev-title-primary {
-  font-size: 1rem;
-  color: #df8613;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-AZ_dev-title-secondary {
-  font-size: 1rem;
-  color: green;
+body {
+  background-color: #ffe92e;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+.container {
+  background-color: white;
+  margin: 100px auto;
+  width: 80%;
+  padding: 50px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  background-image: url(/public/assets/bg.jpg);
+  background-size: 100% 100%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+ul li a {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 20px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: bolder;
+}
+ul li a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  padding: 20px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=styles.css.map */
