@@ -13,4 +13,4 @@ Implementacion de SASS en diseño y sus caracteristicas como preprocesador de CS
 -Operators
 -Interpolation
 
-![Captura Web Construida](https://raw.githubusercontent.com/AZapata27/Curso-Sass/master/public/assets/Captura.jpg)
+![Captura Web Construida](https://raw.githubusercontent.com/AZapata27/Curso-Sass/master/public/assets/Captura.JPG)
